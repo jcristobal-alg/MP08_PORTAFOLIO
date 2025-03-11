@@ -136,10 +136,7 @@ h1{
         background-color: rgb(201, 201, 201);
         width: 100%;
    }
-    .p3 {
-        background-color: rgb(40, 40, 40);
-        height: 50%;
-   }
+ 
     .t1{
         position: absolute;
         margin-top: -40px;
@@ -184,11 +181,7 @@ h1{
             animation: 1s rebotar linear 3;
         }
 
-        .p3 {
-            height: 190px;
-            background-color: rgb(40, 40, 40);
-            clear: both;
-        }
+      
 
     @keyframes rebotar {
         0%{
@@ -346,7 +339,7 @@ h1{
        }
    }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 470px) {
    /*movil*/
     h1{
         padding-top: 100px;
@@ -451,12 +444,22 @@ h1{
         background-color: ghostwhite;
    }
   
-    .p2 ul{
-        width: 960px;
-        scale: 50%;
-        margin-left: -160px;
-        margin-top: 110px;
+
+
+   .p2 a{
+    width: 250px;
+    height: 250px;
+    background-color: goldenrod;
+    text-decoration: none;
+    float: left;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    font-family: helvetica;
+    align-items: center;
    }
+
+
     .p2 li:hover {
         background: rgb(40, 40, 40);
         color: ghostwhite;
@@ -556,3 +559,215 @@ h1{
 .p2{
     background-color: rgb(219, 216, 216);
 }
+
+@media screen and (min-width: 391px) and (max-width:480px){
+    /*movil*/
+     h1{
+         padding-top: 100px;
+         padding-bottom: 30px;
+         padding-left: 60px;
+         padding-right: 60px;
+         text-align: center;
+         position: absolute;
+         display: block;
+         top: 47%;
+         left: 22%;
+         margin-left: 100px;
+         background-color: goldenrod;
+         transform: translate(-50%, -50%);
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 4.900rem;
+         border-radius: 45px 55px 0 0;
+         width: 500px;
+         z-index: 11;
+         color: rgb(40, 40, 40);
+         scale: 75%;
+    }
+     nav img{
+         height:46px;
+         width: 65px;
+         float: right;
+         margin-top: 14px;
+         margin-right: 15px;
+         overflow: hidden;
+    }
+     .d1 {
+         width: 850px;
+         height: 8px;
+         position: absolute;
+         rotate: ;
+         z-index: 11;
+         background-color: ghostwhite;
+         clear: both;
+         top: 54%;
+         left: 20%;
+         margin-top: -110px;
+         margin-left: -430px;
+    }
+     .d2{
+         width: 300px;
+         height: 295px;
+         background-color: rd;
+         position: absolute;
+         top: 55%;
+         left: 43%;
+         right: 110px;
+         margin-top: -322px;
+         background-image: url(../img/foto2.png);
+         background-size: 100%;
+         scale: 65%;
+    }
+     .d22 {
+         width: 110.36px ;
+         height: 137.14px;
+         background-color: geen;
+         position: absolute;
+         top: 38%;
+         left: 65%;
+         z-index: 12;
+         background-image: url(../img/foto3.png);
+         background-size: 100%;
+         scale: 65%;
+    }
+         .d22:hover {
+             width: 110.36px ;
+             height: 137.14px;
+             background-color: rd;
+             position: absolute;
+             top: 38%;
+             left: 65%;
+             z-index: 12;
+             background-image: url(../img/cursor.png);
+             background-size: 100%;
+             scale: 65%;
+         }
+ 
+     .d3{
+         width: 300px;
+         height: 250px;
+         background-color: blue;
+         position: absolute;
+         top: 56%;
+         left: 59%;
+         margin-top: -325px;
+         margin-left: -310px;
+         background-image: url(../img/foto1.png);
+         background-size: 100%;
+         scale: 65%;
+    }  
+ 
+         .d3:hover{
+                 background-image: url(../img/foto4.png);
+         }
+ 
+     .correccio {
+         height: 530px;
+         background-color: ghostwhite;
+    }
+   
+     .p2 ul{
+         width: 960px;
+         scale: 50%;
+         margin-left: -160px;
+         margin-top: 110px;
+    }
+     .p2 li:hover {
+         background: rgb(40, 40, 40);
+         color: ghostwhite;
+         scale: 100%;
+         transition: 1s;
+         animation: 1s rebotar linear 3;
+    }
+ 
+     @keyframes rebotar {
+         0%{
+             transform: translateY(0px);
+        }
+         25%{
+             transform: translateY(10px);
+        }
+         50%{
+             transform: translateY(0px);
+        }
+         75%{
+             transform: translateY(10px);
+        }
+         100%{
+             transform: translateY(0px);
+        }
+    }
+     .p1 {
+         background-color: rgb(40, 40, 40);
+         width: 630px;
+    }
+     .p2 {
+         padding-top: 100px;
+         background-color: ghostwhite;
+         width: 630px;
+    }
+     .p3 {
+         background-color: rgb(40, 40, 40);
+    }
+ 
+     .xsocials{
+         background-color: ed;
+         width: 420px;
+         margin-left: 40%;
+         position: absolute;
+         overflow: hidden;
+         display: inline-block;
+         float: right;
+         scale: 80%;
+         left: -155px;
+     }
+ 
+     .retoc {
+         width: 100%;
+         height: 0.5px;
+         background-color: ghostwhite;
+         display: inline-block;
+         margin-top: 100px;
+     }
+ }
+ 
+ .pagina{
+     position: relative;
+     height: 1050px;
+ }
+ 
+ .p3{
+     height: 190px;
+     background-color: rgb(40, 40, 40);
+    
+ }
+ 
+     .p3 img{
+         width: 60px;
+         height: 60px;
+         text-align: center;
+         padding-left: 20px;
+         padding-top: 20px;
+         float: left;
+     }
+ 
+ .xsocials{
+     background-color: rd;
+     width: 420px;
+     margin-left: 40%;
+     position: absolute;
+     overflow: hidden;
+     display: inline-block;
+     float: right;
+ }
+ 
+ .retoc {
+     width: 100%;
+     height: 0.5px;
+     background-color: ghostwhite;
+     display: inline-block;
+     margin-top: 100px;
+ }
+ .p2{
+     background-color: rgb(219, 216, 216);
+ }
+ 
